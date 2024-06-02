@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on:
     steps:
-      - nmae: Pull Docker image
+      - name: Pull Docker image
         run: docker pull calebemarques/ci-example:latest
 
       - name: Stop Docker container
