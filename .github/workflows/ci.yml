@@ -48,7 +48,7 @@ jobs:
       - build
       - test
     steps:
-      - name: Set up QRMU
+      - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
 
       - name: Set up Docker Buildx
