@@ -1,6 +1,12 @@
 name: Exemplo de CI
 
 on:
+  pull_request:
+    branches:
+      - main
+      - dev
+    types: [opened, reopened]
+
   push:
     branches: [main]
 
