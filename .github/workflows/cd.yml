@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on:
+    runs-on: self-hosted
     steps:
       - name: Pull Docker image
         run: docker pull calebemarques/ci-example:latest
